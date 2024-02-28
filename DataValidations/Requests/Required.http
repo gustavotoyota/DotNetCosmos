@@ -1,0 +1,15 @@
+@DataValidations_HostAddress = http://localhost:5217
+
+POST {{DataValidations_HostAddress}}/Required
+Content-Type: application/json 
+
+{}
+
+###
+
+POST {{DataValidations_HostAddress}}/Required
+Content-Type: application/json
+
+{
+  "requiredValue": "This is required data"
+}

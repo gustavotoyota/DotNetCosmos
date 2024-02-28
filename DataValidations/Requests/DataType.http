@@ -1,0 +1,15 @@
+@DataValidations_HostAddress = http://localhost:5217
+
+GET {{DataValidations_HostAddress}}/DataType/EmailAddress/correct@mail.com
+
+###
+
+GET {{DataValidations_HostAddress}}/DataType/EmailAddress/invalidmail.com
+
+###
+
+GET {{DataValidations_HostAddress}}/DataType/Phone/1234567890
+
+###
+
+GET {{DataValidations_HostAddress}}/DataType/Phone/123456789a

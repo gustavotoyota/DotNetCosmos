@@ -1,0 +1,7 @@
+@DataValidations_HostAddress = http://localhost:5217
+
+GET {{DataValidations_HostAddress}}/StringMaxLength4/Hey
+
+###
+
+GET {{DataValidations_HostAddress}}/StringMaxLength4/Hello

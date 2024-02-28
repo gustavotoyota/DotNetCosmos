@@ -1,0 +1,9 @@
+@DataValidations_HostAddress = http://localhost:5217
+
+GET {{DataValidations_HostAddress}}/PositiveNumber/123
+Accept: application/json
+
+###
+
+GET {{DataValidations_HostAddress}}/PositiveNumber/-123
+Accept: application/json
