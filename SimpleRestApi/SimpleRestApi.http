@@ -1,0 +1,38 @@
+@SimpleRestApi_HostAddress = http://localhost:5212
+
+GET {{SimpleRestApi_HostAddress}}/stocks/
+Accept: application/json
+
+###
+
+GET {{SimpleRestApi_HostAddress}}/stocks/MSFT
+Accept: application/json
+
+###
+
+POST {{SimpleRestApi_HostAddress}}/stocks/
+Content-Type: application/json
+
+{
+  "symbol": "BOVA11.SA",
+  "name": "iShares Ibovespa",
+  "price": 100.0
+}
+
+###
+
+GET {{SimpleRestApi_HostAddress}}/stocks/BOVA11.SA
+Accept: application/json
+
+###
+
+PATCH {{SimpleRestApi_HostAddress}}/stocks/BOVA11.SA
+Content-Type: application/json
+
+{
+  "price": 110.0
+}
+
+###
+
+DELETE {{SimpleRestApi_HostAddress}}/stocks/BOVA11.SA
