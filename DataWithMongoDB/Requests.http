@@ -1,0 +1,31 @@
+@DataWithMongoDB_HostAddress = http://localhost:5140
+
+GET {{DataWithMongoDB_HostAddress}}/api/Products
+
+###
+
+GET {{DataWithMongoDB_HostAddress}}/api/Products/65dfc5392a1383abdec86208
+
+###
+
+POST {{DataWithMongoDB_HostAddress}}/api/Products
+Content-Type: application/json
+
+{
+    "name": "Product 1",
+    "price": 100
+}
+
+###
+
+PUT {{DataWithMongoDB_HostAddress}}/api/Products/65dfc60542588c6503fe24e4
+Content-Type: application/json
+
+{
+    "name": "Product 1",
+    "price": 200
+}
+
+###
+
+DELETE {{DataWithMongoDB_HostAddress}}/api/Products/65dfc60542588c6503fe24e4
