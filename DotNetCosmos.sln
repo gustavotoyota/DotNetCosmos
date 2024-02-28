@@ -9,15 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingWithXUnit", "Testing
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingWithMSTest", "TestingWithMSTest\TestingWithMSTest.csproj", "{E426159F-A675-49D9-B62F-B7A659E1E9A9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleConsoleApp", "ConsoleApp\SimpleConsoleApp.csproj", "{7A1029B3-3AEC-4ED8-94E0-6ED5280FCFCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{7A1029B3-3AEC-4ED8-94E0-6ED5280FCFCB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleRESTApi", "SimpleRestApi\SimpleRESTApi.csproj", "{449857DB-111B-4572-AADC-AF7D911020E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RESTApi", "SimpleRestApi\RESTApi.csproj", "{449857DB-111B-4572-AADC-AF7D911020E7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataValidations", "DataValidations\DataValidations.csproj", "{02B6BB83-78F8-47DC-90BD-291E4DE3746A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETAreas", "ASPNETAreas\ASPNETAreas.csproj", "{C2B202B5-9621-4CC8-B351-CEA7A1E64A23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework", "EntityFramework\EntityFramework.csproj", "{F4431656-4F7B-48E7-9BAD-36B5FBE75855}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchemaAnnotations", "EntityFramework\SchemaAnnotations.csproj", "{F4431656-4F7B-48E7-9BAD-36B5FBE75855}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -6,7 +6,7 @@ namespace EntityFramework.Models
     [Table("DataAnnotations")] // Maps the entity to a specific table in the database
     // name: The name of the table in the database
     // Schema: The database schema of the table
-    public class DataAnnotations
+    public class SchemaAnnotations
     {
         [Key] // Marks the property as the primary key
         // By default, EF creates an IDENTITY column in the database for every primary key
@@ -32,7 +32,7 @@ namespace EntityFramework.Models
         [NotMapped] // Excludes the property from the database
         public required string NotMappedProperty { get; set; }
 
-        [InverseProperty("Data")] // Specifies the inverse of a navigation property
+        [InverseProperty("SchemaAnnotations")] // Specifies the inverse of a navigation property
         // Used to disambiguate when multiple navigation properties of the same type
         // are present on the other side of a relationship
         public required ICollection<ForeignThing> ForeignThings { get; set; }
