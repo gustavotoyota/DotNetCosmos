@@ -15,13 +15,13 @@ namespace SimpleRestApi.Controllers
         };
 
         [HttpGet]
-        public IActionResult Get()
+        public ActionResult<IEnumerable<Stock>> Get()
         {
             return Ok(_stocks);
         }
 
         [HttpGet("{symbol}")]
-        public IActionResult Get(string symbol)
+        public ActionResult<Stock> Get(string symbol)
         {
             var stock = _stocks.FirstOrDefault(s => s.Symbol == symbol);
 
@@ -34,7 +34,7 @@ namespace SimpleRestApi.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post(Stock stock)
+        public ActionResult<Stock> Post(Stock stock)
         {
             _stocks.Add(stock);
 
