@@ -13,13 +13,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RESTApi", "SimpleRestApi\RESTApi.csproj", "{449857DB-111B-4572-AADC-AF7D911020E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataValidations", "DataValidations\DataValidations.csproj", "{02B6BB83-78F8-47DC-90BD-291E4DE3746A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataValidations", "DataValidations\DataValidations.csproj", "{02B6BB83-78F8-47DC-90BD-291E4DE3746A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETAreas", "ASPNETAreas\ASPNETAreas.csproj", "{C2B202B5-9621-4CC8-B351-CEA7A1E64A23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPNETAreas", "ASPNETAreas\ASPNETAreas.csproj", "{C2B202B5-9621-4CC8-B351-CEA7A1E64A23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchemaAnnotations", "EntityFramework\SchemaAnnotations.csproj", "{F4431656-4F7B-48E7-9BAD-36B5FBE75855}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchemaAnnotations", "EntityFramework\SchemaAnnotations.csproj", "{F4431656-4F7B-48E7-9BAD-36B5FBE75855}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataWithMongoDB", "DataWithMongoDB\DataWithMongoDB.csproj", "{0D09E279-C805-482E-ACE6-9F8D00E2AAE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataWithMongoDB", "DataWithMongoDB\DataWithMongoDB.csproj", "{0D09E279-C805-482E-ACE6-9F8D00E2AAE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRExample.Server", "SignalRExample\SignalRExample.Server\SignalRExample.Server.csproj", "{E6F37B5A-EC96-4B51-8B2D-8BEB129205FC}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "SignalRExample.Client", "SignalRExample\signalrexample.client\SignalRExample.Client.esproj", "{89269983-8756-489B-9DC4-E6AEA9FAF1C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,16 @@ Global
 		{0D09E279-C805-482E-ACE6-9F8D00E2AAE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D09E279-C805-482E-ACE6-9F8D00E2AAE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D09E279-C805-482E-ACE6-9F8D00E2AAE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6F37B5A-EC96-4B51-8B2D-8BEB129205FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6F37B5A-EC96-4B51-8B2D-8BEB129205FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6F37B5A-EC96-4B51-8B2D-8BEB129205FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6F37B5A-EC96-4B51-8B2D-8BEB129205FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89269983-8756-489B-9DC4-E6AEA9FAF1C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89269983-8756-489B-9DC4-E6AEA9FAF1C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89269983-8756-489B-9DC4-E6AEA9FAF1C0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{89269983-8756-489B-9DC4-E6AEA9FAF1C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89269983-8756-489B-9DC4-E6AEA9FAF1C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89269983-8756-489B-9DC4-E6AEA9FAF1C0}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
