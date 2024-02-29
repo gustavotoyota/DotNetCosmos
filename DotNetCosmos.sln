@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRExample.Server", "Si
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "SignalRExample.Client", "SignalRExample\signalrexample.client\SignalRExample.Client.esproj", "{89269983-8756-489B-9DC4-E6AEA9FAF1C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataWithSQLite", "DataWithSQLite\DataWithSQLite.csproj", "{B09C536E-5606-4FDA-9F8A-7F8E26C18976}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,10 @@ Global
 		{89269983-8756-489B-9DC4-E6AEA9FAF1C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89269983-8756-489B-9DC4-E6AEA9FAF1C0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{89269983-8756-489B-9DC4-E6AEA9FAF1C0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B09C536E-5606-4FDA-9F8A-7F8E26C18976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B09C536E-5606-4FDA-9F8A-7F8E26C18976}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B09C536E-5606-4FDA-9F8A-7F8E26C18976}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B09C536E-5606-4FDA-9F8A-7F8E26C18976}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
